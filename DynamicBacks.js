@@ -38,6 +38,7 @@ function createDynamicBack() {
   };
 
   function _setInitialBack(){
+    $(_targetSel).addClass("_dynamic_back");
     $(_targetSel).addClass("_dynamic_back0");
   };
   
