@@ -55,7 +55,7 @@ function createDynamicBack() {
   }
 
   function initialize(backs, targetSel, duration=0.6, color="white"){
-    if(_validateInput(backs, targetSel){
+    if(_validateInput(backs, targetSel)){
       _backs = backs;
       _targetSel = targetSel;
       _createDynamicBackCSS(duration, color);
