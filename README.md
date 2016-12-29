@@ -10,12 +10,12 @@ Javascript library for handling dynamic background-images.
   for example:
   dynaBack.initialize(backgrounds, "#target", 0.4, "magenta", "background-position:center");
   
-Only the first two parameters are required. The rest has default values:
-  - animation duration: 0.6,
-  - background color: "white"
-  - additional style: ""
-  
-IMPORTANT: target element cannot have it's own background color specified in css. This will cover the animations. You can only specify the background color via aforementioned interface.
+  Only the first two parameters are required. The rest has default values:
+    - animation duration: 0.6,
+    - background color: "white"
+    - additional style: ""
+
+  IMPORTANT: target element cannot have it's own background color specified in css. This will cover the animations. You can only specify the background color via aforementioned interface.
 
 3. Trigger animation:
   dynaBack.nextBack();
