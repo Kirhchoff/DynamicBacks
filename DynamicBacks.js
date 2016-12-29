@@ -2,8 +2,8 @@ function createDynamicBack() {
   var _backs = [];
   var _targetSel = "";
   var _dynamicBackBaseTmpl="._dynamic_back:before,._dynamic_back:after{content:\"\";position:absolute;top:0px;right:0px;bottom:0px;left:0px;opacity:1;background-color:{0}}";
-  var _dynamicBackTmpl="._dynamic_back{0}:before{background-image:url({1});background-size:cover;z-index:-1;}\
-  ._dynamic_back{0}:after{background-image:url({2});background-size:cover;z-index:-2;{3}}";
+  var _dynamicBackTmpl="._dynamic_back{0}:before{background-image:url({1});z-index:-1;}\
+  ._dynamic_back{0}:after{background-image:url({2});z-index:-2;{3}}";
   var _faderTmpl="._dynamic_back_fader:before{opacity:0;transition:opacity {0}s;}";
   var _currentBack = 0;
   var _inProgress = false;
